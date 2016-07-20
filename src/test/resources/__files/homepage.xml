@@ -1,0 +1,933 @@
+<html xmlns="http://www.w3.org/1999/xhtml" class="no-js" lang="en">
+    <head>
+        <title>
+            Website Design Tulsa | Build It Digital
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta http-equiv="Content-Language" content="en"/>
+        <meta name="description"
+              content="Build It Digital provides custom software development, database design and development, expert website designs and exceptional SEO services.  "/>
+        <meta name="robots" content="noodp"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+        <meta name="Generator" content="Composite C1 CMS - Free Open Source from http://composite.net/"/>
+        <link rel="stylesheet" type="text/css" href="/Frontend/Styles/VisualEditor.common.css"></link>
+        <link rel="icon" type="image/png" href="/frontend/images/favicon.png"></link>
+        <link href="/frontend/Styles/bootstrap.css" rel="stylesheet"></link>
+        <link href="/frontend/Styles/flexslider.css" rel="stylesheet"></link>
+        <link href="/frontend/Styles/owl.transitions.css" rel="stylesheet"></link>
+        <link href="/frontend/Styles/owl.carousel.css" rel="stylesheet"></link>
+        <link rel="stylesheet" href="/frontend/Styles/font-awesome.min.css"></link>
+        <link rel="stylesheet" type="text/css" href="/frontend/Styles/gallery_v2_bid.css"></link>
+        <link rel="stylesheet" type="text/css" href="/frontend/Styles/colorbox.1.6.0.css"></link>
+        <link rel="stylesheet" href="/frontend/Styles/style.css"></link><!-- <link rel="stylesheet" href="/frontend/styles/jquery.bxslider.css" type="text/css" media="screen" />
+		[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+
+
+
+<![endif]-->
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="contact-info">
+                            <div itemscope="itemscope" itemtype="http://schema.org/LocalBusiness">
+                                <ul>
+                                    <li>
+                                        <div class="contact-info-box">
+                                            <i class="fa fa-phone"></i>
+                                        </div>
+                                        <span itemprop="telephone">
+                                            <a href="tel:+19166451106">916-645-1106</a>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <div class="contact-info-box">
+                                            <i class="fa fa-envelope"></i>
+                                        </div>
+                                        <span itemprop="email">
+                                            <a href="mailto:support@builditdigital.com">support@builditdigital.com</a>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="logo">
+                            <a href="/">
+                                <img src="/frontend/images/logo.png" alt="logo" class="img-responsive"/>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-5">
+                        <div class="header-right-menu">
+                            <div class="sitemap">
+                                <div class="header-sitemap-menu">
+                                    <ul>
+                                        <li>
+                                            <a href="/">Home</a>
+                                        </li>
+                                        <li>
+                                            <a href="/blog">Blog</a>
+                                        </li>
+                                        <li>
+                                            <a href="/contact">Contact</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="search"><!--<form>
+                                    <div class="search-text-wrap">
+                                        <input placeholder="search..." type="text" class="" />
+                                        <button type="submit"><i class="fa fa-search"></i></button>
+                                    </div>
+                                </form>-->
+                                    <form id="SearchForm" action="/search#body-content-main"
+                                          class="search-form form-inline" method="get" role="search">
+                                        <div class="search-text-wrap">
+                                            <input id="searchText" type="text" name="q" placeholder="Search..."></input>
+                                            <button type="submit">
+                                                <i class="fa fa-search"></i>
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="social">
+                                    <ul>
+                                        <li>
+                                            <a href="https://www.facebook.com/bidtulsa/" target="_blank">
+                                                <i class="fa fa-facebook-square"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://twitter.com/builditdigital" target="_blank">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/blog">
+                                                <i class="fa fa-rss"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="navbar-custom">
+                        <div class="navbar-container">
+                            <nav class="navbar navbar-default">
+                                <div class="navbar-header navbar-left">
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                            data-target="#bs-example-navbar-collapse-1">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+                                <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
+                                    <ul class="nav navbar-nav navbar-left">
+                                        <li>
+                                            <a href="/">Home
+                                                <br/>
+                                                <span>Welcome</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/tulsa-website-design">About
+                                                <br/>
+                                                <span>The Firm</span>
+                                            </a>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="/Website-Design-Custom-Software">Services
+                                                <br/>
+                                                <span>We Offer</span>
+                                            </a>
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                                               aria-expanded="false">
+                                                <i class="fa fa-plus-square"></i>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a href="/Custom-Software-Development">Custom Software</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/Website-Design-Tulsa">Websites</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="/tulsa-website-design-portfolio">Portfolio
+                                                <br/>
+                                                <span>Our Showcase</span>
+                                            </a>
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                                               aria-expanded="false">
+                                                <i class="fa fa-plus-square"></i>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a href="/testimonials">Testimonials</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="/contact">Contact
+                                                <br/>
+                                                <span>Get In Touch</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="main-container">
+            <div class="banner-container">
+                <div class="flexslider">
+                    <ul class="slides">
+                        <li>
+                            <img src="/frontend/images/banner.jpg"/>
+                            <div class="flex-caption">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-sm-6 col-sm-offset-4">
+                                            <div class="flex-caption-bg">
+                                                <div class="col-sm-8 pull-right">
+                                                    <h1>Welcome</h1>
+                                                    <h2>To the world of creativity</h2>
+                                                </div>
+                                                <hr class="banner-border-bottom"/>
+                                                <div class="col-sm-8 pull-right">
+                                                    <p>
+                                                        To a World Where Creativity
+                                                        Meets the Cutting Edge
+                                                    </p>
+                                                    <a href="/tulsa-website-design" class="flex-caption-btn">Discover
+                                                        More
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="/frontend/images/banner.jpg"/>
+                            <div class="flex-caption">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-sm-6 col-sm-offset-4">
+                                            <div class="flex-caption-bg">
+                                                <div class="col-sm-8 pull-right">
+                                                    <h1>Welcome</h1>
+                                                    <h2>To the world of creativity</h2>
+                                                </div>
+                                                <hr class="banner-border-bottom"/>
+                                                <div class="col-sm-8 pull-right">
+                                                    <p>
+                                                        To a World Where Creativity
+                                                        Meets the Cutting Edge
+                                                    </p>
+                                                    <a href="/tulsa-website-design" class="flex-caption-btn">Discover
+                                                        More
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="/frontend/images/banner.jpg"/>
+                            <div class="flex-caption">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-sm-6 col-sm-offset-4">
+                                            <div class="flex-caption-bg">
+                                                <div class="col-sm-8 pull-right">
+                                                    <h1>Welcome</h1>
+                                                    <h2>To the world of creativity</h2>
+                                                </div>
+                                                <hr class="banner-border-bottom"/>
+                                                <div class="col-sm-8 pull-right">
+                                                    <p>
+                                                        To a World Where Creativity
+                                                        Meets the Cutting Edge
+                                                    </p>
+                                                    <a href="/tulsa-website-design" class="flex-caption-btn">Discover
+                                                        More
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content-wrapper">
+                <div class="container">
+                    <section class="about_us">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <div class="heading-wrap">
+                                    <div class="heading">
+                                        <h1>Custom Software &amp; Tulsa
+                                            <span>Web Design</span>
+                                        </h1>
+                                    </div>
+                                    <div class="about-btn-wrapper">
+                                        <a href="/tulsa-website-design" class="btn-primary">Read More</a>
+                                        <a href="#" class="btn-inverse">REQUEST A QUOTE</a>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <h3>Why Should You Choose Build It Digital?</h3>
+                                <p>Many businesses are turning towards the internet in their quests to develop larger
+                                    customer bases and create lasting, memorable brands. But the power of the internet
+                                    isn't always easily understood, nor is it always used to its greatest potential. One
+                                    of the most important factors of enjoying true success online is working with a
+                                    professional firm that's able to understand client needs and match them with quality
+                                    products and services to ensure that goals are met and bottom lines are improved.
+                                </p>
+                                <p>Web design, branding, and online marketing efforts are all major components of online
+                                    success, and settling for second-best or struggling with in-house productions that
+                                    aren't up to par can spell out disaster for even the most ambitious of businesses
+                                    and individuals. Potential clients online can be especially scrutinizing, and in the
+                                    virtual environment, impressions are made instantly. When it comes to making a name
+                                    for yourself on the internet and presenting that name to the public –and to your
+                                    potential clients--, you need the experience, support, and know-how of a team that
+                                    can take your web presence to the top.
+                                </p>
+                                <p>Build It Digital offers its clients a broad range of services for starting or
+                                    improving an online business presence, including the creation and renovation of
+                                    websites, SEO campaigns, marketing projects, and other tasks geared towards getting
+                                    the word out in style. Combining the finely-honed skills of a sizable group of
+                                    experts with years of experience in their respective fields, Build It Digital brings
+                                    you the very best of online business services in a convenient package, and can help
+                                    take your product, service, or message to the worldwide online audience –or simply
+                                    to targeted viewers close to home.
+                                </p>
+                                <p>Whether you're looking for...</p>
+                                <ul>
+                                    <li>Sleek, scalable web designs</li>
+                                    <li>Professional, thoughtful branding or re-branding campaigns</li>
+                                    <li>Social media marketing services</li>
+                                    <li>Highly customized logo design</li>
+                                    <li>Specialty applications</li>
+                                    <li>Multimedia solutions</li>
+                                    <li>Search Engine Optimization</li>
+                                </ul>
+                                <p>...or any other in-demand and business-building services oriented towards the web,
+                                    Build It Digital is ready to help you soar online.
+                                </p>
+                                <p>Of course, there are many design, development, and marketing firms from which to
+                                    choose. Here at Build It Digital, however, we approach and execute our projects a
+                                    little differently, all in an effort to ensure our clients get the edge they need to
+                                    tackle the competition and enjoy long-term success. When you work with Build It
+                                    Digital, no matter the type of project or service desired, you'll benefit from:
+                                </p>
+                                <h3>An Unbeatable Work Ethic</h3>
+                                <p>When our clients come to us with their ideas and specifications, we're committed to
+                                    getting the job done –and getting it done right-- from start to finish. Each of our
+                                    highly skilled team members treats clients' projects with care and attention,
+                                    bringing something unique and truly valuable to the results.
+                                </p>
+                                <h3>Great Communication</h3>
+                                <p>Fed up with firms that understand the technical side of things but can't manage a
+                                    friendly hello or clear explanation? Our team cares about communication, and will
+                                    keep you informed and engaged in the creation process. Enjoy personable, prompt
+                                    contact with a personal touch that makes sure your needs are met every step of the
+                                    way.
+                                </p>
+                                <h3>Beautiful, Efficient Results</h3>
+                                <p>At Build It Digital, we believe that beauty and efficiency aren't restricted to the
+                                    visual and the technical; we strive to infuse each and every project, whether it's a
+                                    simple logo, an extensive ad campaign, or a re-vamped site design, with our very
+                                    best in terms of both looks and functionality. The result? Better products and
+                                    services for our clients, every time.
+                                </p>
+                                <p>We know that handing over the keys of your business presence online can be daunting,
+                                    and that's why we're committed to creating meaningful partnerships with our clients
+                                    to ensure that all specifications are met and that objectives are truly satisfied.
+                                    Whether you're precisely sure of how your finished product should work and look or
+                                    you're still not decided about the options, Build It Digital can work with you to
+                                    produce online perfection.
+                                </p>
+                                <p>Keep your online business interests secure and successful with the products and
+                                    services available from Build It Digital. With our expertise and dedication to
+                                    bringing out the best of every design and development mission, you can create a
+                                    virtual face for yourself or your company from the ground up, or simply add new
+                                    features to make your online efforts take flight.
+                                </p>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="sidebar">
+                                    <div class="website-item">
+                                        <div class="heading">
+                                            <h1>Our
+                                                <span>Website Services</span>
+                                            </h1>
+                                        </div>
+                                        <ul>
+                                            <li class="webdesign">
+                                                <a href="/Website-Design-Tulsa">Website Design</a>
+                                                <p>Excellence, expandability, and affordability combine with the very
+                                                    best in visual and technical..
+                                                    <span class="more">
+                                                        <a href="/Website-Design-Tulsa">More &gt;&gt;</a>
+                                                    </span>
+                                                </p>
+                                            </li>
+                                            <li class="webdevelopment">
+                                                <a href="/Website-Design-Tulsa/Website-Development-Tulsa">Website
+                                                    Development
+                                                </a>
+                                                <p>Many of today's best websites aren't simply the faces of a business
+                                                    –they're also crucial..
+                                                    <span class="more">
+                                                        <a href="/Website-Design-Tulsa/Website-Development-Tulsa">More
+                                                            &gt;&gt;</a>
+                                                    </span>
+                                                </p>
+                                            </li>
+                                            <li class="seo">
+                                                <a href="/SEO-Tulsa">SEO</a>
+                                                <p>A term that has become increasingly common on today’s internet, SEO
+                                                    is often misunderstood..
+                                                    <span class="more">
+                                                        <a href="/SEO-Tulsa">More &gt;&gt;</a>
+                                                    </span>
+                                                </p>
+                                            </li>
+                                            <li class="internetmarketing">
+                                                <a href="/Internet-Marketing">Internet Marketing</a>
+                                                <p>To the uninitiated and even sometimes to the experienced, internet
+                                                    marketing can seem like..
+                                                    <span class="more">
+                                                        <a href="/Internet-Marketing">More &gt;&gt;</a>
+                                                    </span>
+                                                </p>
+                                            </li>
+                                            <li class="graphicdesgin">
+                                                <a href="/Graphic-Design">Graphic Design</a>
+                                                <p>A memorable design is based not only on elements of color, shape, and
+                                                    line..
+                                                    <span class="more">
+                                                        <a href="/Graphic-Design">More &gt;&gt;</a>
+                                                    </span>
+                                                </p>
+                                            </li>
+                                            <li class="facebookapps">
+                                                <a href="/Facebook-Application-Design--Development">Facebook Apps Design
+                                                    &amp;
+                                                    <br/>
+                                                    Development
+                                                </a>
+                                                <p>One of the modern web's most powerful marketing and networking
+                                                    platforms, Facebook..
+                                                    <span class="more">
+                                                        <a href="/Facebook-Application-Design--Development">More &gt;&gt;</a>
+                                                    </span>
+                                                </p>
+                                            </li>
+                                        </ul>
+                                        <div class="sidebar-btn-wrap">
+                                            <a href="/tulsa-website-design-portfolio" class="btn-inverse">View Our
+                                                Portfolio
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="software-item">
+                                        <div class="heading">
+                                            <h1>Our
+                                                <span>Software Services</span>
+                                            </h1>
+                                        </div>
+                                        <ul>
+                                            <li class="enterpriseapp">
+                                                <a href="#">Enterprise Application Development</a>
+                                                <p>Excellence, expandability, and affordability combine with the very
+                                                    best in visual and
+                                                    <span class="more">
+                                                        <a href="#">More &gt;&gt;</a>
+                                                    </span>
+                                                </p>
+                                            </li>
+                                            <li class="saas">
+                                                <a href="#">SaaS Software Development</a>
+                                                <p>Excellence, expandability, and affordability combine with the very
+                                                    best in visual and
+                                                    <span class="more">
+                                                        <a href="#">More &gt;&gt;</a>
+                                                    </span>
+                                                </p>
+                                            </li>
+                                            <li class="cloud">
+                                                <a href="#">Cloud Development</a>
+                                                <p>Excellence, expandability, and affordability combine with the very
+                                                    best in visual and
+                                                    <span class="more">
+                                                        <a href="#">More &gt;&gt;</a>
+                                                    </span>
+                                                </p>
+                                            </li>
+                                            <li class="database">
+                                                <a href="#">Database Design &amp; Development</a>
+                                                <p>Excellence, expandability, and affordability combine with the very
+                                                    best in visual and
+                                                    <span class="more">
+                                                        <a href="#">More &gt;&gt;</a>
+                                                    </span>
+                                                </p>
+                                            </li>
+                                            <li class="casino">
+                                                <a href="#">Casino Transactional Database</a>
+                                                <p>Excellence, expandability, and affordability combine with the very
+                                                    best in visual and
+                                                    <span class="more">
+                                                        <a href="#">More &gt;&gt;</a>
+                                                    </span>
+                                                </p>
+                                            </li>
+                                            <li class="advanceweb">
+                                                <a href="#">Advanced Web Development</a>
+                                                <p>Excellence, expandability, and affordability combine with the very
+                                                    best in visual and
+                                                    <span class="more">
+                                                        <a href="#">More &gt;&gt;</a>
+                                                    </span>
+                                                </p>
+                                            </li>
+                                            <li class="customintegration">
+                                                <a href="#">Custom Integrations</a>
+                                                <p>Excellence, expandability, and affordability combine with the very
+                                                    best in visual and
+                                                    <span class="more">
+                                                        <a href="#">More &gt;&gt;</a>
+                                                    </span>
+                                                </p>
+                                            </li>
+                                            <li class="netdev">
+                                                <a href="#">.NET Development</a>
+                                                <p>Excellence, expandability, and affordability combine with the very
+                                                    best in visual and
+                                                    <span class="more">
+                                                        <a href="#">More &gt;&gt;</a>
+                                                    </span>
+                                                </p>
+                                            </li>
+                                            <li class="multimedia">
+                                                <a href="/Multimedia-Solutions">Multimedia Solutions</a>
+                                                <p>Great-looking graphics and layouts may be essential components of
+                                                    winning site and..
+                                                    <span class="more">
+                                                        <a href="/Multimedia-Solutions">More &gt;&gt;</a>
+                                                    </span>
+                                                </p>
+                                            </li>
+                                        </ul>
+                                        <div class="sidebar-btn-wrap">
+                                            <a href="/tulsa-website-design-portfolio" class="btn-inverse">View Our
+                                                Portfolio
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <section class="clients">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="heading">
+                                    <h2>Our
+                                        <br/>
+                                        <span>CLIENTS</span>
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="col-sm-8">
+                                <div class="clients-slider">
+                                    <div id="client-carousel">
+                                        <div class="item">
+                                            <div class="top-item">
+                                                <a href="#">
+                                                    <img src="/frontend/images/clients/client1.png"
+                                                         class="img-responsive"/>
+                                                </a>
+                                            </div>
+                                            <div class="bottom-item">
+                                                <a href="#">
+                                                    <img src="/frontend/images/clients/client2.png"
+                                                         class="img-responsive"/>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="top-item">
+                                                <a href="#">
+                                                    <img src="/frontend/images/clients/client3.png"
+                                                         class="img-responsive"/>
+                                                </a>
+                                            </div>
+                                            <div class="bottom-item">
+                                                <a href="#">
+                                                    <img src="/frontend/images/clients/client4.png"
+                                                         class="img-responsive"/>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="top-item">
+                                                <a href="#">
+                                                    <img src="/frontend/images/clients/client5.png"
+                                                         class="img-responsive"/>
+                                                </a>
+                                            </div>
+                                            <div class="bottom-item">
+                                                <a href="#">
+                                                    <img src="/frontend/images/clients/client6.png"
+                                                         class="img-responsive"/>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="top-item">
+                                                <a href="#">
+                                                    <img src="/frontend/images/clients/client3.png"
+                                                         class="img-responsive"/>
+                                                </a>
+                                            </div>
+                                            <div class="bottom-item">
+                                                <a href="#">
+                                                    <img src="/frontend/images/clients/client4.png"
+                                                         class="img-responsive"/>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="top-item">
+                                                <a href="#">
+                                                    <img src="/frontend/images/clients/client1.png"
+                                                         class="img-responsive"/>
+                                                </a>
+                                            </div>
+                                            <div class="bottom-item">
+                                                <a href="#">
+                                                    <img src="/frontend/images/clients/client2.png"
+                                                         class="img-responsive"/>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="top-item">
+                                                <a href="#">
+                                                    <img src="/frontend/images/clients/client5.png"
+                                                         class="img-responsive"/>
+                                                </a>
+                                            </div>
+                                            <div class="bottom-item">
+                                                <a href="#">
+                                                    <img src="/frontend/images/clients/client6.png"
+                                                         class="img-responsive"/>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="whatyou">
+                    <div class="container">
+                        <div class="row">
+                            <div class="whatyou-wrap-left">
+                                <div class="col-sm-6">
+                                    <h2>
+                                        What you
+                                        <br/>
+                                        <span>EXPECT</span>
+                                        from
+                                        <br/>
+                                        Build It Digital?
+                                    </h2>
+                                    <ul>
+                                        <li>
+                                            <a href="/web-development-company-tulsa-dallas#show">Long term Relationship
+                                                Approach.
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/pleasing-cooperation#show">Flexible.</a>
+                                        </li>
+                                        <li>
+                                            <a href="/open-communication#show">Open communication.</a>
+                                        </li>
+                                        <li>
+                                            <a href="/best-practices#show">Best Practices.</a>
+                                        </li>
+                                        <li>
+                                            <a href="/high-roi#show">High ROI.</a>
+                                        </li>
+                                        <li>
+                                            <a href="/web-development-services-tulsa-dallas#show">Meets time &amp;
+                                                budget.
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="whatyou-wrap-right">
+                                <div class="col-sm-6">
+                                    <h2>
+                                        Our
+                                        <br/>
+                                        <span>Services</span>
+                                    </h2>
+                                    <ul class="right-ul">
+                                        <li>
+                                            <a href="#">Custom Logo Design</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Tulsa Website Design</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Website Development</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Graphic Design</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Corporate Branding</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Facebook Apps Design &amp; Development</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Internet Marketing</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">SEO</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Multimedia Solutions</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="testimonial">
+                    <div class="container">
+                        <div class="row">
+                            <div class="heading-right">
+                                <div class="col-sm-12">
+                                    <div class="clients">
+                                        <div class="heading">
+                                            <h2>Client's
+                                                <br/>
+                                                <span>PERSPECTIVE</span>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-wrap">
+                                <div class="col-sm-12 pleft">
+                                    <div id="testimonial-carousel">
+
+                                        <!-- Thumbnails -->
+
+
+                                        <div class="item">
+                                            <div itemprop="review" itemscope itemtype="http://schema.org/Review">
+                                                <blockquote>
+                                                    <p class="descriptionContainer">
+                                                        <span id="ctl395_rptTestimonials_ctl00_lblTestimonialContent"
+                                                              itemprop="description">Robert and Luke are so fantastic to
+                                                            work with! They built my website for Green Country Shutters
+                                                            and continue to manage it for me, constantly adding value to
+                                                            the site. I truly appreciate their expert advise, timely
+                                                            follow through and genuine interest in making my business a
+                                                            success! I highly recommend Build It Digital!
+                                                        </span>
+                                                        <div class="profile-name">
+                                                            <span id="ctl395_rptTestimonials_ctl00_lblOtherInfo">
+                                                                <span itemprop='name'>Charlotte East</span>
+                                                                <span class='place'>, Vinita, OK</span>
+                                                            </span>
+                                                        </div>
+                                                    </p>
+                                                </
+                                                <blockquote>
+
+
+                                                <div style='display:none' itemprop='reviewRating' itemscope
+                                                     itemtype='http://schema.org/Rating'><span itemprop='ratingValue'>
+                                                    5.00</span>/<span itemprop='bestRating'>5.00</span>stars
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="news">
+                        <div class="container">
+                            <h2>News / Events:</h2>
+                            <div id="news-carousel">
+                                <div class="item">
+                                    <p>In-demand and business-building services oriented towards the web.
+                                        <span>(3 Jan, 2016)</span>
+                                    </p>
+                                </div>
+                                <div class="item">
+                                    <p>In-demand and business-building services oriented towards the web.
+                                        <span>(3 Jan, 2016)</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="footer-top">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="footer-heading">
+                                <h2>BUILD IT DIGITAL</h2>
+                            </div>
+                            <p>
+                                Many businesses are turning towards the internet in their quests to develop larger
+                                customer bases and create lasting, memorable brands. But the power of the internet isn't
+                                always easily understood, nor is it always used to its greatest potential. One of the
+                                most important factors of enjoying true success online is working with a professional
+                                firm that's able to understand client needs and match them with quality products and
+                                services to ensure that goals are met and bottom lines are improved.
+                            </p>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="footer-menu-wrap">
+                                <div class="footer-heading">
+                                    <h2>Links</h2>
+                                </div>
+                                <div class="footer-menu">
+                                    <ul>
+                                        <li>
+                                            <a href="/">Home</a>
+                                        </li>
+                                        <li>
+                                            <a href="/tulsa-website-design">About</a>
+                                        </li>
+                                        <li>
+                                            <a href="/page(89a1813c-1564-436c-97ae-c9346f04799a)">Services</a>
+                                        </li>
+                                        <li>
+                                            <a href="/tulsa-website-design-portfolio">Portfolio</a>
+                                        </li>
+                                        <li>
+                                            <a href="/contact">Contact</a>
+                                        </li>
+                                        <li>
+                                            <a href="/payment">Payment</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Sitemap</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="footer-heading">
+                                <h2>Get In Touch</h2>
+                            </div>
+                            <p>Whether you have a question or two, would like to submit some feedback, or are interested
+                                in starting a project with us, we'd love to hear from you. Fill out the form below to
+                                get in touch, and we'll get back to you right away.
+                            </p>
+                            <address>
+                                <div class="address" itemscope="itemscope" itemtype="http://schema.org/LocalBusiness">
+                                    <span class="add-main" itemprop="name">Build It Digital</span>
+                                    <br/>
+                                    <span itemprop="address" itemscope="itemscope"
+                                          itemtype="http://schema.org/PostalAddress"></span>
+                                    <span itemprop="streetAddress">4150 S 100th East Ave</span>
+                                    <br/>
+                                    <span itemprop="addressLocality">Suite 200G</span>
+                                    <br/>
+                                    <span itemprop="addressRegion">Tulsa, OK</span>
+                                    <br/>
+                                    <span itemprop="postalCode">74146</span>
+                                    <br/>
+                                    <span>Call us at:
+                                        <a href="tel:+19166451106">916-645-1106</a>
+                                    </span>
+                                    <meta itemprop="latitude" content="36.102520"></meta>
+                                    <meta itemprop="longitude" content="-95.866181"></meta>
+                                </div>
+                            </address>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="copyright">
+                    <div class="container">
+                        <div class="row">
+                            <p>All Rights Reserved by BuildItDigital.com - Copyright 2015</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-9360889-1']);
+            _gaq.push(['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+        <script src="/frontend/js/jquery.min.js" type="text/javascript"></script>
+        <script src="/frontend/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="/frontend/js/jquery.flexslider-min.js" type="text/javascript"></script>
+        <script src="/frontend/js/owl.carousel.min.js" type="text/javascript"></script>
+        <script src="/frontend/js/jquery.smoothZoom.min.js"></script>
+        <script src="/frontend/js/jquery.rateit.min.js"></script>
+        <script src="/frontend/js/jquery.colorbox.1.6.0.js"></script>
+        <script src="/frontend/js/scripts.js" type="text/javascript"></script>
+    </body>
+</html>
