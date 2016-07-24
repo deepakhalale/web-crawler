@@ -1,8 +1,7 @@
 package com.locusintellect
 
-class MissingRequiredPropertiesException extends RuntimeException {
+import groovy.transform.InheritConstructors
 
-    MissingRequiredPropertiesException(final String message) {
-        super(message)
-    }
+@InheritConstructors
+class MissingRequiredPropertiesException extends RuntimeException {
 }
