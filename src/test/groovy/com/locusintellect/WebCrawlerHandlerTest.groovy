@@ -8,6 +8,7 @@ import org.junit.runner.RunWith
 import org.mockito.Mock
 import org.mockito.runners.MockitoJUnitRunner
 
+import static com.locusintellect.domain.DomainLinks.builder
 import static org.hamcrest.core.Is.is
 import static org.junit.Assert.assertThat
 import static org.junit.Assert.fail
@@ -75,60 +76,60 @@ class WebCrawlerHandlerTest {
     }
 
     DomainLinks getMergedDomainLinksDoubleNested() {
-        return new DomainLinks().builder()
-                                .domain(DEFAULT_DOMAIN)
-                                .staticContentLinks(["/frontend/Styles/style.css", "/frontend/images/logo.png", "/contact/static/link"] as Set)
-                                .externalLinks(["https://twitter.com/builditdigital", "https://www.facebook.com/bidtulsa/", "https://google.com/builditdigital"] as Set)
-                                .linksWithinDomain(["/contact": null, "/payment": null])
-                                .build()
+        return builder()
+                .domain(DEFAULT_DOMAIN)
+                .staticContentLinks(["/frontend/Styles/style.css", "/frontend/images/logo.png", "/contact/static/link"] as Set)
+                .externalLinks(["https://twitter.com/builditdigital", "https://www.facebook.com/bidtulsa/", "https://google.com/builditdigital"] as Set)
+                .linksWithinDomain(["/contact": null, "/payment": null])
+                .build()
 
     }
 
     DomainLinks getUnMergedDomainLinksDoubleNested() {
-        DomainLinks contactDomain = new DomainLinks().builder()
-                                                     .domain("${DEFAULT_DOMAIN}/contact")
-                                                     .staticContentLinks(["/contact/static/link"] as Set)
-                                                     .externalLinks(["https://google.com/builditdigital"] as Set)
-                                                     .build()
+        DomainLinks contactDomain = builder()
+                .domain("${DEFAULT_DOMAIN}/contact")
+                .staticContentLinks(["/contact/static/link"] as Set)
+                .externalLinks(["https://google.com/builditdigital"] as Set)
+                .build()
 
-        DomainLinks paymentDomain = new DomainLinks().builder()
-                                                     .domain("${DEFAULT_DOMAIN}/payment")
-                                                     .staticContentLinks(["/frontend/Styles/style.css"] as Set)
-                                                     .externalLinks(["https://twitter.com/builditdigital"] as Set)
-                                                     .linksWithinDomain(["/contact": contactDomain])
-                                                     .build()
+        DomainLinks paymentDomain = builder()
+                .domain("${DEFAULT_DOMAIN}/payment")
+                .staticContentLinks(["/frontend/Styles/style.css"] as Set)
+                .externalLinks(["https://twitter.com/builditdigital"] as Set)
+                .linksWithinDomain(["/contact": contactDomain])
+                .build()
 
-        return new DomainLinks().builder()
-                                .domain(DEFAULT_DOMAIN)
-                                .staticContentLinks(["/frontend/images/logo.png"] as Set)
-                                .externalLinks(["https://www.facebook.com/bidtulsa/"] as Set)
-                                .linksWithinDomain(["/payment": paymentDomain])
-                                .build()
+        return builder()
+                .domain(DEFAULT_DOMAIN)
+                .staticContentLinks(["/frontend/images/logo.png"] as Set)
+                .externalLinks(["https://www.facebook.com/bidtulsa/"] as Set)
+                .linksWithinDomain(["/payment": paymentDomain])
+                .build()
     }
 
     DomainLinks getMergedDomainLinksSingleNested() {
-        return new DomainLinks().builder()
-                                .domain(DEFAULT_DOMAIN)
-                                .staticContentLinks(["/frontend/Styles/style.css", "/frontend/images/logo.png"] as Set)
-                                .externalLinks(["https://twitter.com/builditdigital", "https://www.facebook.com/bidtulsa/"] as Set)
-                                .linksWithinDomain(["/contact": null, "/payment": null]).build()
+        return builder()
+                .domain(DEFAULT_DOMAIN)
+                .staticContentLinks(["/frontend/Styles/style.css", "/frontend/images/logo.png"] as Set)
+                .externalLinks(["https://twitter.com/builditdigital", "https://www.facebook.com/bidtulsa/"] as Set)
+                .linksWithinDomain(["/contact": null, "/payment": null]).build()
     }
 
     DomainLinks getUnMergedDomainLinksSingleNested() {
-        DomainLinks childDomain = new DomainLinks().builder()
-                                                   .domain("${DEFAULT_DOMAIN}/payment")
-                                                   .staticContentLinks(["/frontend/Styles/style.css"] as Set)
-                                                   .externalLinks(["https://twitter.com/builditdigital"] as Set)
-                                                   .linksWithinDomain(["/contact": null])
-                                                   .build()
+        DomainLinks childDomain = builder()
+                .domain("${DEFAULT_DOMAIN}/payment")
+                .staticContentLinks(["/frontend/Styles/style.css"] as Set)
+                .externalLinks(["https://twitter.com/builditdigital"] as Set)
+                .linksWithinDomain(["/contact": null])
+                .build()
 
 
-        return new DomainLinks().builder()
-                                .domain(DEFAULT_DOMAIN)
-                                .staticContentLinks(["/frontend/images/logo.png"] as Set)
-                                .externalLinks(["https://www.facebook.com/bidtulsa/"] as Set)
-                                .linksWithinDomain(["/payment": childDomain])
-                                .build()
+        return builder()
+                .domain(DEFAULT_DOMAIN)
+                .staticContentLinks(["/frontend/images/logo.png"] as Set)
+                .externalLinks(["https://www.facebook.com/bidtulsa/"] as Set)
+                .linksWithinDomain(["/payment": childDomain])
+                .build()
     }
 
 }

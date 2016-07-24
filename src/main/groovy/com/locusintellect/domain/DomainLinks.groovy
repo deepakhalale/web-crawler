@@ -1,11 +1,9 @@
 package com.locusintellect.domain
 
-import groovy.transform.EqualsAndHashCode
-import groovy.transform.ToString
+import groovy.transform.Canonical
 import groovy.transform.builder.Builder
 
-@EqualsAndHashCode
-@ToString
+@Canonical
 @Builder
 class DomainLinks {
 
@@ -13,4 +11,11 @@ class DomainLinks {
     Map<String, DomainLinks> linksWithinDomain
     Set<String> externalLinks
     Set<String> staticContentLinks
+
+    public static DomainLinks EMPTY_DOMAIN(final String domainUrl) {
+        return builder().domain(domainUrl)
+                        .linksWithinDomain([:])
+                        .externalLinks([] as Set)
+                        .staticContentLinks([] as Set).build()
+    }
 }

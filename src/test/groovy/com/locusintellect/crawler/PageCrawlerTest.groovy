@@ -75,8 +75,7 @@ class PageCrawlerTest {
 
     @Test
     public void shouldReturnEmptyDomainListOn404Response() {
-        final DomainLinks expectedDomainObject = new DomainLinks().builder().domain(getDomainUrl()).linksWithinDomain([:])
-                                                                  .externalLinks([] as Set).staticContentLinks([] as Set).build()
+        final DomainLinks expectedDomainObject = DomainLinks.EMPTY_DOMAIN(getDomainUrl())
         givenThat(get(urlEqualTo("/")).willReturn(aResponse().withStatus(404).withStatusMessage("Requested document not found.")))
 
         DomainLinks domainLinks = underTest.crawlPageForLinks(getDomainUrl())

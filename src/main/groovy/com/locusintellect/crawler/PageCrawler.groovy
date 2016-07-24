@@ -23,20 +23,18 @@ class PageCrawler {
             }
         } catch (HttpStatusException e) {
             LOG.warn("Could not fetch ${url}. Reason: ${e.getMessage()}")
-            return new DomainLinks().builder().domain(url)
-                                    .linksWithinDomain([:])
-                                    .externalLinks([] as Set)
-                                    .staticContentLinks([] as Set).build()
+            return DomainLinks.EMPTY_DOMAIN(url)
         }
 
-        final def (Map<String, DomainLinks> linksWithinDomain, Set<String> externalLinks) = getLinksWithinDomainAndExternalLinks(document, url)
+        final
+        def (Map<String, DomainLinks> linksWithinDomain, Set<String> externalLinks) = getLinksWithinDomainAndExternalLinks(document, url)
 
         final Set<String> staticContents = getStaticContentsFrom(document)
 
-        return new DomainLinks().builder().domain(url)
-                                .linksWithinDomain(linksWithinDomain)
-                                .externalLinks(externalLinks)
-                                .staticContentLinks(staticContents).build()
+        return DomainLinks.builder().domain(url)
+                        .linksWithinDomain(linksWithinDomain)
+                        .externalLinks(externalLinks)
+                        .staticContentLinks(staticContents).build()
     }
 
     private List getLinksWithinDomainAndExternalLinks(final Document document, final String url) {
