@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <!--  Default properties-->
+    <property scope="LOCAL" name="DEFAULT_LOGGING_FILE_PATH" value="/var/log/web-crawler" />
+    <property scope="LOCAL" name="DEFAULT_LOGGING_MAX_HISTORY" value="30" />
+    <property scope="LOCAL" name="DEFAULT_LOGGING_MAX_FILE_SIZE" value="20MB" />
+    <property scope="LOCAL" name="DEFAULT_ENV" value="dev" />
+
+
+    <appender name="FILE"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOGGING_FILE_PATH:-${DEFAULT_LOGGING_FILE_PATH}}/output.log</file>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <pattern>[%d{"yyyy-MM-dd HH:mm:ss,SSS"}] %5p: %m %n</pattern>
+            <charset>utf8</charset>
+        </encoder>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- rollover daily -->
+            <fileNamePattern>${LOGGING_FILE_PATH:-${DEFAULT_LOGGING_FILE_PATH}}/output.%d{yyyy-MM-dd}.%i.log.gz
+            </fileNamePattern>
+            <maxHistory>${LOGGING_MAX_HISTORY:-${DEFAULT_LOGGING_MAX_HISTORY}}</maxHistory>
+            <timeBasedFileNamingAndTriggeringPolicy
+                    class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>${LOGGING_MAX_FILE_SIZE:-${DEFAULT_LOGGING_MAX_FILE_SIZE}}</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+
+    </appender>
+
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>[%d{"yyyy-MM-dd HH:mm:ss,SSS"}] %5p: %m %n</pattern>
+            <charset>utf8</charset>
+        </encoder>
+    </appender>
+
+    <include resource="logback/includes/${ENV:-${DEFAULT_ENV}}_logback.xml"/>
+
+</configuration>
