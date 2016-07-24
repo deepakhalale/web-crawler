@@ -31,6 +31,7 @@ class WebCrawlerHandler {
         printSiteMap(domainLinks)
     }
 
+    // todo move to a separate class specific to view
     private void printSiteMap(final DomainLinks domainLinks) {
         println("Site map for domain ${domainLinks.domain}")
         println("Links within domain:")
@@ -47,6 +48,7 @@ class WebCrawlerHandler {
         }
     }
 
+    // todo move to a separate class specific to view
     private DomainLinks mergeDomainLinks(final DomainLinks domainLinks, DomainLinks mergedDomainLinks) {
         if (!mergedDomainLinks) {
             mergedDomainLinks = new DomainLinks().builder().domain(domainLinks.domain)
