@@ -2,7 +2,7 @@
 <configuration>
 
     <!--  Default properties-->
-    <property scope="LOCAL" name="DEFAULT_LOGGING_FILE_PATH" value="/var/log/web-crawler" />
+    <property scope="LOCAL" name="DEFAULT_LOGGING_FILE_PATH" value="." />
     <property scope="LOCAL" name="DEFAULT_LOGGING_MAX_HISTORY" value="30" />
     <property scope="LOCAL" name="DEFAULT_LOGGING_MAX_FILE_SIZE" value="20MB" />
     <property scope="LOCAL" name="DEFAULT_ENV" value="dev" />

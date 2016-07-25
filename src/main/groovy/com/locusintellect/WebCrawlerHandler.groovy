@@ -51,10 +51,7 @@ class WebCrawlerHandler {
     // todo move to a separate class specific to view
     private DomainLinks mergeDomainLinks(final DomainLinks domainLinks, DomainLinks mergedDomainLinks) {
         if (!mergedDomainLinks) {
-            mergedDomainLinks = new DomainLinks().builder().domain(domainLinks.domain)
-                                                 .linksWithinDomain([:])
-                                                 .externalLinks([] as Set)
-                                                 .staticContentLinks([] as Set).build()
+            mergedDomainLinks = DomainLinks.EMPTY_DOMAIN(domainLinks.domain)
         }
 
         if (domainLinks) {
@@ -62,9 +59,7 @@ class WebCrawlerHandler {
             mergedDomainLinks.staticContentLinks.addAll(domainLinks.staticContentLinks)
 
             domainLinks.linksWithinDomain.each { key, value ->
-                domainLinks.linksWithinDomain.each {
-                    mergedDomainLinks.linksWithinDomain.put(it.key, null)
-                }
+                mergedDomainLinks.linksWithinDomain.put(key, null)
 
                 mergeDomainLinks(value, mergedDomainLinks)
             }
